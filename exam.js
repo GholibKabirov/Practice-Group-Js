@@ -9,4 +9,6 @@ function f(array, num){
     return arr1;
 }
 
+
+
 console.log(f(arr, 8))

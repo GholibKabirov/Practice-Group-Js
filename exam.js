@@ -1,21 +1,12 @@
-let element="025468";
-let cnt=0;
-function f(elem ){
-    let srs="";
-    for(let i=0; i<elem.length; i++){
-       if(elem[i]%2==0 && elem[i+1]%2==0 )
-        {
-           srs+=elem[i]+"-";
-        }
+let arr = [9,7,6,5,4,3,2,1];
 
-        else{
-            srs+=elem[i];
-        }  
-     
-   
-}
-return srs;
+function f(array, num){
+    let arr1=[]
+    for(let i=0;i<array.length;i++){
+        arr1.push(array[i])
+        if(array[i]>=num ){arr1.push(num);}
+    }
+    return arr1;
 }
 
-
-console.log(f(element))
+console.log(f(arr, 8))

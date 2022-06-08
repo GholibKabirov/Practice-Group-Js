@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayl.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="myBtn">Add</button>
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+     <input id="name" type="text" placeholder="Name" >
+     <input id="age" type="number" placeholder="Age" >
+     <select name="group" id="course">
+        <option value="js">JS</option>
+        <option value="cpp">CPP</option>
+        <option value="hs">HTML/CSS</option>
+        <option value="react">REACT</option>
+      </select>
+     <input id="phone" type="number" placeholder="Phone" >
+     <button id="add" >Add</button>
+
+  </div>
+</div>
+
+   
+
+
+    <table class="styled-table">
+        <caption style="margin-bottom: 10px; font-size: larger;">JS Group</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Phone</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+   
+    <script src="main.js"></script>
+</body>
+</html>
